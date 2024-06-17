@@ -12,6 +12,10 @@ html, body {
     padding: 20px 0 80px 0;
 }
 
+.left-header, .right-header {
+    max-width: 500px;
+}
+/* right header content */
 .right-header {
     display: flex;
     flex-direction: column;
@@ -19,6 +23,20 @@ html, body {
     align-items: flex-end;
 }
 
+.header-links, .header-links a{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #f9faf8;
+    margin: auto;
+}
+
+.header-image img {
+    height: 400px;
+    border-radius: 25px;
+}
+/* left header content */
 .left-header {
     display: flex;
     flex-direction: column;
@@ -30,20 +48,6 @@ html, body {
     color: #f9faf8;
     font-weight: 600;
     font-size: large;
-}
-
-.header-links, .header-links a{
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-    text-decoration: none;
-    color: #f9faf8;
-    margin: auto;
-
-}
-
-.left-header, .right-header {
-    max-width: 500px;
 }
 
 .header-content a{
@@ -74,3 +78,5 @@ html, body {
 /* * {
     outline: auto;
 } */
+
+/* top main content */
