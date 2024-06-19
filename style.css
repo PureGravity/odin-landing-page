@@ -82,10 +82,6 @@ html, body {
     color: #e5e7eb;
 }
 
-/* * {
-    outline: auto;
-} */
-
 /* main */
 main {
     flex: 1;
@@ -125,7 +121,7 @@ main {
 /* section slice 1*/
 .slice-1 {
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 150px;
     text-align: center;
 }
 
@@ -135,13 +131,11 @@ main {
     color: #1f2937;
     width: 850px;
     margin: auto;
-    padding-top: 100px;
 }
 
 .slice-1-name {
     white-space: nowrap;
     margin-left: 500px;
-    padding: 20px 0;
 }
 
 /* section slice 2 */
